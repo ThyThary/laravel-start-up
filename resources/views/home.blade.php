@@ -13,6 +13,9 @@
                 <p for="accountant" class=" text-base font-normal mb-2">Accountant</p>
                 <textarea name="message" id="message" cols="7" rows="4" class="inputStyle" placeholder="message"></textarea>
             </div>
+            <div class=" flex flex-col ml-auto items-end translate-y-[100px] m-5">
+                <button type="button" onclick="post()" class="bg-sky-500 rounded-md px-4 py-1 text-white font-medium max-w-16 wave-affect hover:bg-sky-400 shadow-md"> Save</button>
+            </div>
         </div>
     </form>
 @endsection 
