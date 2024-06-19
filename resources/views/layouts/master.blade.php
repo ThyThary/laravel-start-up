@@ -6,6 +6,8 @@
     </head>
     <body>
         @yield('content')
+         {{-- @stack("script") --}}
+        {{-- @push("script")@endpush --}}
     </body>
     <footer>
     </footer>
